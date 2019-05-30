@@ -1,9 +1,0 @@
-class Solution {
-    
-    function hammingDistance($x, $y) {
-        $bin = decbin($x ^ $y);         //Decimal to binary
-        return substr_count($bin,'1');  //Count the number of substring occurrences
-    }
-}
-//https://www.php.net/manual/en/function.decbin.php
-//https://www.php.net/manual/en/function.substr-count.php
